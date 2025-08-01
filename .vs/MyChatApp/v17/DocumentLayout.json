@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitRepos\\MinimalChat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lugov\\AppData\\Local\\Temp\\.vsdbgsrc\\51c9a479ee6daceb001152396e225af5b941ff8e\\Domain.orleans.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.8.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D179D87C-C386-441A-9FBD-123B74836BA5}|src\\Api\\Api.csproj|d:\\gitrepos\\minimalchat\\src\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D179D87C-C386-441A-9FBD-123B74836BA5}|src\\Api\\Api.csproj|solutionrelative:src\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.1.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\dtos\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\dtos\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitRepos\\MinimalChat\\src\\Grains\\Services\\PasswordHasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Grains\\Services\\PasswordHasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitRepos\\MinimalChat\\src\\Grains\\UserGrainState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Grains\\UserGrainState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitRepos\\MinimalChat\\src\\Grains\\Grains.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Grains\\Grains.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitRepos\\MinimalChat\\src\\Domain\\Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Domain\\Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Domain.orleans.g.cs",
+              "DocumentMoniker": "C:\\Users\\lugov\\AppData\\Local\\Temp\\.vsdbgsrc\\51c9a479ee6daceb001152396e225af5b941ff8e\\Domain.orleans.g.cs",
+              "ToolTip": "C:\\Users\\lugov\\AppData\\Local\\Temp\\.vsdbgsrc\\51c9a479ee6daceb001152396e225af5b941ff8e\\Domain.orleans.g.cs [Read Only]",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAjwLwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:08:06.001Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Orleans.CodeGenerator.MSBuild.targets",
+              "DocumentMoniker": "C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.8.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets",
+              "ToolTip": "C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.8.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAhwHoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-01T16:08:11.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Grains\\Services\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "src\\Grains\\Services\\PasswordHasher.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Grains\\Services\\PasswordHasher.cs",
+              "RelativeToolTip": "src\\Grains\\Services\\PasswordHasher.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:46:42.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserGrainState.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Grains\\UserGrainState.cs",
+              "RelativeDocumentMoniker": "src\\Grains\\UserGrainState.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Grains\\UserGrainState.cs",
+              "RelativeToolTip": "src\\Grains\\UserGrainState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:16:39.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Shared.csproj",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\Shared.csproj",
+              "RelativeDocumentMoniker": "src\\Shared\\Shared.csproj",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\Shared.csproj",
+              "RelativeToolTip": "src\\Shared\\Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-01T13:11:54.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Grains.csproj",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Grains\\Grains.csproj",
+              "RelativeDocumentMoniker": "src\\Grains\\Grains.csproj",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Grains\\Grains.csproj",
+              "RelativeToolTip": "src\\Grains\\Grains.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-01T13:11:42.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Orleans.CodeGenerator.MSBuild.targets",
+              "DocumentMoniker": "C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.1.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets",
+              "ToolTip": "C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.1.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAhwHwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-08-01T16:34:18.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Api.csproj",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Api.csproj",
+              "RelativeDocumentMoniker": "src\\Api\\Api.csproj",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Api\\Api.csproj",
+              "RelativeToolTip": "src\\Api\\Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-01T16:48:04.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserProfileDTO.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\UserProfileDTO.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\DTOs\\UserProfileDTO.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\UserProfileDTO.cs",
+              "RelativeToolTip": "src\\Shared\\DTOs\\UserProfileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:08:43.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\DTOs\\ChatMessage.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\ChatMessage.cs",
+              "RelativeToolTip": "src\\Shared\\DTOs\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:08:16.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "src\\Domain\\Domain.csproj",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Domain\\Domain.csproj",
+              "RelativeToolTip": "src\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-01T11:43:47.454Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
