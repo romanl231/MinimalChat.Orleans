@@ -1,11 +1,24 @@
+using Api.Services;
+using Api.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Orleans.Configuration;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+builder.Host.UseOrleansClient((context, clientBuilder) =>
+{
+    clientBuilder.Configure<ClusterOptions>(options =>
+    {
+        options.ClusterId = "dev";
+        options.ServiceId = "dev";
+    }).UseLocalhostClustering();
+});
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -38,6 +51,12 @@ builder.Services.AddAuthentication(options =>
                         .UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
                 };
             });
+
+builder.Services.AddScoped<IJWTService, JWTService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

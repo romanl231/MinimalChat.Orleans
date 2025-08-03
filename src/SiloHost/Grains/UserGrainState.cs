@@ -7,6 +7,7 @@ namespace SiloHost.Grains
 {
     public class UserGrainState
     {
+        public string Id { get; set; } = string.Empty;
         public string NickName { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public string PasswordHash { get; set; } = string.Empty;
@@ -14,8 +15,15 @@ namespace SiloHost.Grains
 
     public class UserGrain : Grain<UserGrainState>, IUserGrain
     {
+        public override Task OnActivateAsync(CancellationToken cancellationToken)
+        {
+            State.Id = this.GetPrimaryKeyString();
+            return base.OnActivateAsync(cancellationToken);
+        }
+
         public async Task SetProfileAsync(RegisterDto dto)
         {
+            State.Id = Guid.NewGuid().ToString();
             State.NickName = dto.Nickname;
             State.Description = dto.Description;
             State.PasswordHash = PasswordHasher.Hash(dto.Password);
