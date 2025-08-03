@@ -85,7 +85,7 @@ namespace Api.Services
                     succeeded.Add(memberId);
                     return;
                 }
-                catch (Exception ex) when (attempt < maxAttempts)
+                catch (Exception) when (attempt < maxAttempts)
                 {
                     await Task.Delay(100 * attempt);
                 }

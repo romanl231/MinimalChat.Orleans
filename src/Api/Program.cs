@@ -54,7 +54,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddScoped<IJWTService, JWTService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-
+builder.Services.AddScoped<IChatRoomService, ChatRoomService>();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
