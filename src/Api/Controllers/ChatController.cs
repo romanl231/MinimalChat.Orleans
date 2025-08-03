@@ -6,17 +6,15 @@ using Shared.DTOs;
 
 namespace Api.Controllers
 {
-    [Route("api/chat")]
+    [Route("api/chatroom")]
     [ApiController]
-    public class ChatController : ControllerBase
+    public class ChatRoomController : ControllerBase
     {
-        public ChatController() { }
+        private readonly IClusterClient _clusterClient;
 
-        [Authorize]
-        [HttpPost("{chatId}/send")]
-        public async Task<IActionResult> SendMessage(string chatId)
+        public ChatRoomController(IClusterClient clusterClient) 
         {
-            return Ok();
+            _clusterClient = clusterClient;
         }
 
         [HttpPost("create")]
