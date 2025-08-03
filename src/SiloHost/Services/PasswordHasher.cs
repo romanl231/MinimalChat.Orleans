@@ -23,7 +23,7 @@ namespace SiloHost.Services
                 HashAlgorithmName.SHA256,
                 HashSize);
 
-            return $"{Iterations}.{Convert.ToBase64String(hash)}";
+            return $"{Iterations}.{Convert.ToBase64String(salt)}.{Convert.ToBase64String(hash)}";
         }
 
         public static bool Verify(string password, string storedHash)

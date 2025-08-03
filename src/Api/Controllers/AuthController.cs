@@ -19,19 +19,24 @@ namespace Api.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterDto dto)
-        {
-            if (await _authService.RegisterAsync(dto))
-            {
-                return Ok();
-            }
-            
-            return BadRequest();
-        }
+        public async Task<IActionResult> Register([FromBody] RegisterDto dto) => 
+            await _authService.RegisterAsync(dto) ? 
+                Ok(dto) : BadRequest();
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto dto)
         {
+            var userId = await _authService.LoginAsync(dto);
+
+            if (string.IsNullOrEmpty(userId)) return BadRequest();
+
+            var token = _jwtService.GenerateJWTAsync(userId);
+            return HandleLoginResult(token);
+        }
+
+        private IActionResult HandleLoginResult(string token)
+        {
+            Response.Cookies.Append("Bearer", token);
             return Ok();
         }
     }

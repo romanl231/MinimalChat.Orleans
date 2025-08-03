@@ -15,8 +15,6 @@ namespace SiloHost.Grains
 
     public class UserDirectoryGrain : Grain<UserDirectoryGrainState>, IUserDirectoryGrain
     {
-        private static string Normalize(string nickname) => nickname.Trim().ToLowerInvariant();
-
         public override Task OnActivateAsync(CancellationToken cancellationToken)
         {
             return base.OnActivateAsync(cancellationToken);

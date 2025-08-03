@@ -37,16 +37,21 @@ namespace Api.Services
             return claimResult; 
         }
 
-        public async Task<bool> LoginAsync(LoginDto dto)
+        public async Task<string> LoginAsync(LoginDto dto)
         {
             var nickNameGrain = ResolveNickNameGrain(dto.Nickname);
             var userId = await nickNameGrain.Resolve();
 
-            if(userId == null) return false;
+            if (userId == null) return string.Empty;
 
             var userGrain = _client.GetGrain<IUserGrain>(userId);
-            
-            return await userGrain.ValidatePasswordAsync(dto.Password);
+
+            if (await userGrain.ValidatePasswordAsync(dto.Password))
+            {
+                return userId;
+            }
+
+            return string.Empty;
         }
 
         public async Task<bool> ChangePasswordAsync(ChangePasswordDto dto)
