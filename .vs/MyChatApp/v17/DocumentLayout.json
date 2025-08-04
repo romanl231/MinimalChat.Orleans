@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\GitRepos\\MinimalChat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{95C4F136-BF5C-498B-849B-1E776B2BE823}|src\\SiloHost\\SiloHost.csproj|d:\\gitrepos\\minimalchat\\src\\silohost\\grains\\messagegrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95C4F136-BF5C-498B-849B-1E776B2BE823}|src\\SiloHost\\SiloHost.csproj|solutionrelative:src\\silohost\\grains\\messagegrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\graininterfaces\\imessagegrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\graininterfaces\\imessagegrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\graininterfaces\\iuserchatmembershipgrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\graininterfaces\\iuserchatmembershipgrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\dtos\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\dtos\\chatmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\dtos\\chatroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\dtos\\chatroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D179D87C-C386-441A-9FBD-123B74836BA5}|src\\Api\\Api.csproj|d:\\gitrepos\\minimalchat\\src\\api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D179D87C-C386-441A-9FBD-123B74836BA5}|src\\Api\\Api.csproj|solutionrelative:src\\api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{95C4F136-BF5C-498B-849B-1E776B2BE823}|src\\SiloHost\\SiloHost.csproj|solutionrelative:src\\silohost\\grains\\userchatmembershipgrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\dtos\\chatroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\dtos\\chatroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D179D87C-C386-441A-9FBD-123B74836BA5}|src\\Api\\Api.csproj|d:\\gitrepos\\minimalchat\\src\\api\\services\\interfaces\\ichatroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D179D87C-C386-441A-9FBD-123B74836BA5}|src\\Api\\Api.csproj|solutionrelative:src\\api\\services\\interfaces\\ichatroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D179D87C-C386-441A-9FBD-123B74836BA5}|src\\Api\\Api.csproj|d:\\gitrepos\\minimalchat\\src\\api\\utils\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D179D87C-C386-441A-9FBD-123B74836BA5}|src\\Api\\Api.csproj|solutionrelative:src\\api\\utils\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\graininterfaces\\iuserchatmembershipgrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\graininterfaces\\iuserchatmembershipgrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{95C4F136-BF5C-498B-849B-1E776B2BE823}|src\\SiloHost\\SiloHost.csproj|d:\\gitrepos\\minimalchat\\src\\silohost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95C4F136-BF5C-498B-849B-1E776B2BE823}|src\\SiloHost\\SiloHost.csproj|solutionrelative:src\\silohost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|d:\\gitrepos\\minimalchat\\src\\shared\\dtos\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94A6B10B-6474-474B-BBB1-7BB20DB72D03}|src\\Shared\\Shared.csproj|solutionrelative:src\\shared\\dtos\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95C4F136-BF5C-498B-849B-1E776B2BE823}|src\\SiloHost\\SiloHost.csproj|d:\\gitrepos\\minimalchat\\src\\silohost\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,7 +155,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -155,32 +163,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChatRoomService.cs",
-              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\ChatRoomService.cs",
-              "RelativeDocumentMoniker": "src\\Api\\Services\\ChatRoomService.cs",
-              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\ChatRoomService.cs",
-              "RelativeToolTip": "src\\Api\\Services\\ChatRoomService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MessageGrain.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\MessageGrain.cs",
+              "RelativeDocumentMoniker": "src\\SiloHost\\Grains\\MessageGrain.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\MessageGrain.cs",
+              "RelativeToolTip": "src\\SiloHost\\Grains\\MessageGrain.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T20:17:20.852Z",
+              "WhenOpened": "2025-08-04T11:50:11.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChatRoomGrain.cs",
-              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\ChatRoomGrain.cs",
-              "RelativeDocumentMoniker": "src\\SiloHost\\Grains\\ChatRoomGrain.cs",
-              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\ChatRoomGrain.cs",
-              "RelativeToolTip": "src\\SiloHost\\Grains\\ChatRoomGrain.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAkwFIAAAApAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IMessageGrain.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IMessageGrain.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\GrainInterfaces\\IMessageGrain.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IMessageGrain.cs",
+              "RelativeToolTip": "src\\Shared\\GrainInterfaces\\IMessageGrain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T15:38:29.113Z"
+              "WhenOpened": "2025-08-04T11:36:42.586Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "UserDirectoryGrain.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\UserDirectoryGrain.cs",
               "RelativeDocumentMoniker": "src\\SiloHost\\Grains\\UserDirectoryGrain.cs",
@@ -192,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "src\\Api\\Services\\Interfaces\\IAuthService.cs",
@@ -204,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "src\\Api\\Services\\AuthService.cs",
@@ -216,19 +225,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "ChatRoomDTO.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\ChatRoomDTO.cs",
               "RelativeDocumentMoniker": "src\\Shared\\DTOs\\ChatRoomDTO.cs",
               "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\ChatRoomDTO.cs",
               "RelativeToolTip": "src\\Shared\\DTOs\\ChatRoomDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T15:24:49.065Z"
+              "WhenOpened": "2025-08-03T15:24:49.065Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "IChatRoomGrain.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IChatRoomGrain.cs",
               "RelativeDocumentMoniker": "src\\Shared\\GrainInterfaces\\IChatRoomGrain.cs",
@@ -240,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "UserGrainState.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\UserGrainState.cs",
               "RelativeDocumentMoniker": "src\\SiloHost\\Grains\\UserGrainState.cs",
@@ -252,20 +262,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ChatController.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "src\\Api\\Controllers\\ChatController.cs",
               "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Api\\Controllers\\ChatController.cs",
               "RelativeToolTip": "src\\Api\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T14:09:02.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "ChatMessageDTO.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\ChatMessageDTO.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\DTOs\\ChatMessageDTO.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\ChatMessageDTO.cs",
+              "RelativeToolTip": "src\\Shared\\DTOs\\ChatMessageDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:08:16.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserChatMembershipGrain.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IUserChatMembershipGrain.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\GrainInterfaces\\IUserChatMembershipGrain.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IUserChatMembershipGrain.cs",
+              "RelativeToolTip": "src\\Shared\\GrainInterfaces\\IUserChatMembershipGrain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T17:13:18.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatRoomGrain.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\ChatRoomGrain.cs",
+              "RelativeDocumentMoniker": "src\\SiloHost\\Grains\\ChatRoomGrain.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\ChatRoomGrain.cs",
+              "RelativeToolTip": "src\\SiloHost\\Grains\\ChatRoomGrain.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwFIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:38:29.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatRoomService.cs",
+              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\ChatRoomService.cs",
+              "RelativeDocumentMoniker": "src\\Api\\Services\\ChatRoomService.cs",
+              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\ChatRoomService.cs",
+              "RelativeToolTip": "src\\Api\\Services\\ChatRoomService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T20:17:20.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\Api\\Controllers\\AuthController.cs",
@@ -273,12 +333,11 @@
               "RelativeToolTip": "src\\Api\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:06:10.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T20:06:10.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Api\\Program.cs",
@@ -286,12 +345,11 @@
               "RelativeToolTip": "src\\Api\\Program.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:12:50.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T20:12:50.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "UserChatMembershipGrain.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Grains\\UserChatMembershipGrain.cs",
               "RelativeDocumentMoniker": "src\\SiloHost\\Grains\\UserChatMembershipGrain.cs",
@@ -303,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "IChatRoomService.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\Interfaces\\IChatRoomService.cs",
               "RelativeDocumentMoniker": "src\\Api\\Services\\Interfaces\\IChatRoomService.cs",
@@ -315,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "UserHelper.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Utils\\UserHelper.cs",
               "RelativeDocumentMoniker": "src\\Api\\Utils\\UserHelper.cs",
@@ -327,19 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IUserChatMembershipGrain.cs",
-              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IUserChatMembershipGrain.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\GrainInterfaces\\IUserChatMembershipGrain.cs",
-              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IUserChatMembershipGrain.cs",
-              "RelativeToolTip": "src\\Shared\\GrainInterfaces\\IUserChatMembershipGrain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T17:13:18.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "UserProfileDTO.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\UserProfileDTO.cs",
               "RelativeDocumentMoniker": "src\\Shared\\DTOs\\UserProfileDTO.cs",
@@ -351,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "IUserGrain.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IUserGrain.cs",
               "RelativeDocumentMoniker": "src\\Shared\\GrainInterfaces\\IUserGrain.cs",
@@ -363,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Program.cs",
               "RelativeDocumentMoniker": "src\\SiloHost\\Program.cs",
@@ -375,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\Services\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "src\\SiloHost\\Services\\PasswordHasher.cs",
@@ -387,19 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ChatMessage.cs",
-              "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\ChatMessage.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\DTOs\\ChatMessage.cs",
-              "ToolTip": "D:\\GitRepos\\MinimalChat\\src\\Shared\\DTOs\\ChatMessage.cs",
-              "RelativeToolTip": "src\\Shared\\DTOs\\ChatMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T13:08:16.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IUserDirectoryGrain.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\GrainInterfaces\\IUserDirectoryGrain.cs",
               "RelativeDocumentMoniker": "src\\Shared\\GrainInterfaces\\IUserDirectoryGrain.cs",
@@ -411,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "JWTService.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\JWTService.cs",
               "RelativeDocumentMoniker": "src\\Api\\Services\\JWTService.cs",
@@ -423,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Shared.csproj",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Shared\\Shared.csproj",
               "RelativeDocumentMoniker": "src\\Shared\\Shared.csproj",
@@ -435,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "IJWTService.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Services\\Interfaces\\IJWTService.cs",
               "RelativeDocumentMoniker": "src\\Api\\Services\\Interfaces\\IJWTService.cs",
@@ -447,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Api.csproj",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Api\\Api.csproj",
               "RelativeDocumentMoniker": "src\\Api\\Api.csproj",
@@ -459,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Microsoft.Orleans.CodeGenerator.MSBuild.targets",
               "DocumentMoniker": "C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.8.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets",
               "ToolTip": "C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.8.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets",
@@ -469,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\SiloHost\\appsettings.Development.json",
@@ -481,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\appsettings.json",
               "RelativeDocumentMoniker": "src\\SiloHost\\appsettings.json",
@@ -493,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "UserGrainState.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Grains\\UserGrainState.cs",
               "RelativeDocumentMoniker": "src\\Grains\\UserGrainState.cs",
@@ -505,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Grains\\Services\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "src\\Grains\\Services\\PasswordHasher.cs",
@@ -517,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "SiloHost.csproj",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\SiloHost\\SiloHost.csproj",
               "RelativeDocumentMoniker": "src\\SiloHost\\SiloHost.csproj",
@@ -529,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Grains.csproj",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Grains\\Grains.csproj",
               "RelativeDocumentMoniker": "src\\Grains\\Grains.csproj",
@@ -541,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Domain.orleans.g.cs",
               "DocumentMoniker": "C:\\Users\\lugov\\AppData\\Local\\Temp\\.vsdbgsrc\\51c9a479ee6daceb001152396e225af5b941ff8e\\Domain.orleans.g.cs",
               "ToolTip": "C:\\Users\\lugov\\AppData\\Local\\Temp\\.vsdbgsrc\\51c9a479ee6daceb001152396e225af5b941ff8e\\Domain.orleans.g.cs [Read Only]",
@@ -552,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Microsoft.Orleans.CodeGenerator.MSBuild.targets",
               "DocumentMoniker": "C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.1.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets",
               "ToolTip": "C:\\Users\\lugov\\.nuget\\packages\\microsoft.orleans.codegenerator.msbuild\\3.1.0\\build\\Microsoft.Orleans.CodeGenerator.MSBuild.targets",
@@ -562,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Domain.csproj",
               "DocumentMoniker": "D:\\GitRepos\\MinimalChat\\src\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "src\\Domain\\Domain.csproj",
