@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shared.GrainInterfaces
 {
-    public interface IChatMessageHistoryGrain
+    public interface IChatMessageHistoryGrain : IGrainWithStringKey
     {
         Task<bool> AddMessageAsync(string messageId);
         Task<List<string>> GetMessageIdsAsync();

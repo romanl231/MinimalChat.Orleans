@@ -16,12 +16,16 @@ namespace SiloHost.Grains
     {
         public async Task<bool> AddMessageAsync(string messageId)
         {
-            State.MessageIds.Add(messageId);
-            await WriteStateAsync();
+            if (!State.MessageIds.Contains(messageId))
+            {
+                State.MessageIds.Add(messageId);
+                await WriteStateAsync();
+            }
             return true;
         }
 
-        public Task<List<string>> GetMessageIdsAsync() => Task.FromResult(State.MessageIds);
+        public Task<List<string>> GetMessageIdsAsync() => 
+            Task.FromResult(new List<string>(State.MessageIds));
 
         public async Task<bool> RemoveMessageAsync(string messageId)
         {
