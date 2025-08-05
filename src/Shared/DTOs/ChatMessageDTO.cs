@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,5 +16,8 @@ namespace Shared.DTOs
     [GenerateSerializer, Immutable]
     public record DisplayMessageDto(
         [property: Id(0)] string SenderId,
-        [property: Id(1)] string Text );
+        [property: Id(1)] string Text, 
+        [property: Id(2)] string ChatRoomId
+        );
+    
 }

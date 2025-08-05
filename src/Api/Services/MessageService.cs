@@ -47,14 +47,14 @@ namespace Api.Services
             var succeded = new ConcurrentBag<string>();
 
             var tasks = normalizedMessageIds.Select(m => 
-                TryGetMessageWithRetriesAsync(m, succeded)).ToList();
+                TryGetMessageWithRetriesAsync(m, chatId, succeded)).ToList();
 
             var messages = await Task.WhenAll(tasks);
 
             return messages.ToList();
         }
 
-        public async Task<DisplayMessageDto> TryGetMessageWithRetriesAsync(string messageId, ConcurrentBag<string> succeded)
+        public async Task<DisplayMessageDto> TryGetMessageWithRetriesAsync(string messageId, string chatRoomId, ConcurrentBag<string> succeded)
         {
             var messageGrain = _clusterClient.GetGrain<IMessageGrain>(messageId);
             int maxAttempts = 2;
@@ -65,7 +65,7 @@ namespace Api.Services
                 {
                     var message = await messageGrain.GetMessageAsync();
                     succeded.Add(messageId);
-                    return message;
+                    return MapMessageDto(message, chatRoomId);
                 }
                 catch (Exception) when (attempt < maxAttempts)
                 {
@@ -75,6 +75,9 @@ namespace Api.Services
 
             throw new Exception($"Failed to get info about {messageId}");
         }
+
+        private static DisplayMessageDto MapMessageDto(DisplayMessageDto dto, string chatRoomId) =>
+            new DisplayMessageDto(dto.SenderId, dto.Text, chatRoomId);
 
         public async Task<bool> DeleteMessageAsync(string chatRoomId, string messageId)
         {
