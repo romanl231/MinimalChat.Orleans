@@ -7,7 +7,7 @@ using Shared.DTOs;
 namespace Api.Controllers
 {
     [ApiController]
-    [Route("api/chatroom/{chatId}")]
+    [Route("api/chatroom/{chatRoomId}")]
     public class MessageController : ControllerBase
     {
         private readonly IMessageService _messageService;
@@ -18,11 +18,11 @@ namespace Api.Controllers
         }
 
         [Authorize]
-        [HttpPost("send")]
-        public async Task<IActionResult> SendMessageAsync([FromBody] string text, string chatId)
+        [HttpPost("message/send")]
+        public async Task<IActionResult> SendMessageAsync([FromBody] string text, string chatRoomId)
         {
             var userId = UserHelper.GetCurrentUserId(HttpContext);
-            var dto = MapMessageDto(userId, chatId, text);
+            var dto = MapMessageDto(userId, chatRoomId, text);
             if (await _messageService.SendMessageAsync(dto)) return Ok();
             return BadRequest();
         }
@@ -32,9 +32,9 @@ namespace Api.Controllers
 
         [Authorize]
         [HttpGet("message/all")]
-        public async Task<IActionResult> GetMessagesFromChat(string chatId)
+        public async Task<IActionResult> GetMessagesFromChat(string chatRoomId)
         {
-            var messages = await _messageService.GetChatMessagesAsync(chatId);
+            var messages = await _messageService.GetChatMessagesAsync(chatRoomId);
             if(messages.Any()) return Ok(messages);
             return BadRequest();
         }
