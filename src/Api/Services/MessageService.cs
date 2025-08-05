@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Shared.DTOs;
 using Shared.GrainInterfaces;
+using System.Collections.Concurrent;
 
 namespace Api.Services
 {
@@ -35,7 +36,44 @@ namespace Api.Services
 
         public async Task<List<DisplayMessageDto>> GetChatMessagesAsync(string chatId)
         {
-            return new List<DisplayMessageDto>();
+            var chatMessageMemoryGrain = _clusterClient.GetGrain<IChatMessageHistoryGrain>(chatId);
+            var messageIds = await chatMessageMemoryGrain.GetMessageIdsAsync();
+            if (!messageIds.Any()) return new List<DisplayMessageDto>();
+            var normalizedMessageIds = messageIds.Where(id => !string.IsNullOrWhiteSpace(id))
+                                         .Select(id => id.Trim())
+                                         .Distinct(StringComparer.OrdinalIgnoreCase)
+                                         .ToList();
+
+            var succeded = new ConcurrentBag<string>();
+
+            var tasks = normalizedMessageIds.Select(m => 
+                TryGetMessageWithRetriesAsync(m, succeded)).ToList();
+
+            var messages = await Task.WhenAll(tasks);
+
+            return messages.ToList();
+        }
+
+        public async Task<DisplayMessageDto> TryGetMessageWithRetriesAsync(string messageId, ConcurrentBag<string> succeded)
+        {
+            var messageGrain = _clusterClient.GetGrain<IMessageGrain>(messageId);
+            int maxAttempts = 2;
+
+            for (int attempt = 1; attempt < maxAttempts; attempt++)
+            {
+                try
+                {
+                    var message = await messageGrain.GetMessageAsync();
+                    succeded.Add(messageId);
+                    return message;
+                }
+                catch (Exception) when (attempt < maxAttempts)
+                {
+                    await Task.Delay(100 * attempt);
+                }
+            }
+
+            throw new Exception($"Failed to get info about {messageId}");
         }
 
         public async Task<bool> DeleteMessageAsync(string chatRoomId, string messageId)
