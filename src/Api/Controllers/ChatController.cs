@@ -29,18 +29,9 @@ namespace Api.Controllers
             return BadRequest();
         }
 
-        private ChatDTO Map(ChatDTO dto, string userId)
-        {
-            return new ChatDTO(dto.Title, dto.Description, userId, dto.MemberIds);
-        }
-
-        [Authorize]
-        [HttpGet("{chatId}/messages")]
-        public async Task<IActionResult> GetChatMessages()
-        {
-            return Ok();
-        }
-
+        private ChatDTO Map(ChatDTO dto, string userId) => 
+            new ChatDTO(dto.Title, dto.Description, userId, dto.MemberIds);
+        
         [Authorize]
         [HttpPost("{chatId}/join")]
         public async Task<IActionResult> JoinChatRoom(string chatId, [FromBody] string memberId) => 
