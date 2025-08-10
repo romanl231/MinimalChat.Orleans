@@ -3,7 +3,7 @@ using Shared.DTOs;
 
 namespace Realtime.Ws.Hubs
 {
-    public class ChatHub : Microsoft.AspNetCore.SignalR.Hub
+    public class ChatHub : Hub
     {
         public async Task JoinRoom(string chatRoomId)
         {
