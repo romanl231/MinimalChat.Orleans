@@ -26,7 +26,7 @@ namespace SiloHost.Grains
 
         public Task<List<string>> GetMessageIdsAsync() => 
             Task.FromResult(new List<string>(State.MessageIds));
-
+        
         public async Task<bool> RemoveMessageAsync(string messageId)
         {
             State.MessageIds.Remove(messageId);

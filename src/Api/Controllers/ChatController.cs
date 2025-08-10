@@ -8,7 +8,7 @@ using Shared.DTOs;
 
 namespace Api.Controllers
 {
-    [Route("api/chatroom")]
+    [Route("api/chatrooms")]
     [ApiController]
     public class ChatRoomController : ControllerBase
     {
@@ -25,7 +25,7 @@ namespace Api.Controllers
         {
             var userId = UserHelper.GetCurrentUserId(HttpContext);
             var mappedDto = Map(dto, userId);
-            if (await _chatRoomService.CreateRoomAsync(dto)) return Ok();
+            if (await _chatRoomService.CreateRoomAsync(mappedDto)) return Ok();
             return BadRequest();
         }
 
@@ -39,7 +39,7 @@ namespace Api.Controllers
             Ok() : BadRequest();
 
         [Authorize]
-        [HttpGet("get-my-chats")]
+        [HttpGet("mine")]
         public async Task<ActionResult<List<string>>> GetMyChats()
         {
             var userId = UserHelper.GetCurrentUserId(HttpContext);
